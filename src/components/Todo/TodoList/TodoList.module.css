@@ -1,0 +1,31 @@
+.TodoList {
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.NoTodos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.NoTodos p {
+  font-weight: bold;
+  color: grey;
+}
+
+/* width */
+.TodoList::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.TodoList::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.TodoList::-webkit-scrollbar-thumb {
+  background: grey;
+}

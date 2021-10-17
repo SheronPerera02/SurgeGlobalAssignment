@@ -1,0 +1,47 @@
+.TodoListItem {
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  margin-right: 5px;
+  display: flex;
+}
+
+.TodoListItem > div {
+  display: flex;
+}
+
+.TodoListItem > div:nth-child(1) {
+  width: 80%;
+  align-items: center;
+}
+
+.TodoListItem > div:nth-child(1) > div:nth-child(1) {
+  display: flex;
+}
+
+.TodoListItem > div:nth-child(2) {
+  width: 20%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.DetailContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.ToggleButton {
+  width: 75px;
+  background-color: #ff3841;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.ToggleButton:active {
+  transform: scale(0.9);
+}

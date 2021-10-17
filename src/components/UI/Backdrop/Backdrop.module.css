@@ -1,0 +1,14 @@
+.Backdrop {
+  z-index: 150;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .Backdrop{
+    height: calc(100vh + 75px);
+  }
+}
